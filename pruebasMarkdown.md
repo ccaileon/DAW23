@@ -21,3 +21,39 @@ En ellos, podemos utilizar diferentes marcas para formatear el texto. Podemos ut
 ### De tercer nivel
 
 ###### Hasta de nivel 6
+
+
+
+También podemos utilizar listas ordenadas:
+
+1. Item ordenado 1
+
+2. Item ordenado 2
+
+3. ...
+
+ 
+
+Y listas desordenadas:
+
+* Item 1
+
+* Item 2...
+
+
+
+E incluir [enlaces](https://github.com/AlumnoDAM-MGH/mi-primer-repo) y como ya vimos, también imágenes:
+
+ ![Logo de McGraw Hill y Octocat](imagenes/mgh_github.png)
+
+ 
+
+Además podemos incluir código, tanto de forma inline: `como por ejemplo este texto`, como código en bloque:
+
+```java
+
+String hola="Hola Mundo";
+
+System.Out.Println(hola);
+
+```
