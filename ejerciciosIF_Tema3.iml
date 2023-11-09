@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/datosPersonales/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ejerciciosIF_Tema3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ejerciciosSwitch/src" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
