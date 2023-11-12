@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Canal RSS</title>
+    <link>http://www.ejemplo.com</link>
+    <description>Canal RSS con tiempo meteorológico y noticias</description>
+
+    <!-- Item 1: El tiempo meteorológico diario de tu ciudad desde www.aemet.es -->
+    <item>
+      <title>El Tiempo en [Tu Ciudad]</title>
+      <link>http://www.aemet.es/[Enlace a tu ciudad]</link>
+      <description>Consulta el tiempo meteorológico diario en [Tu Ciudad] a través de www.aemet.es</description>
+      <pubDate>[Fecha y hora de la publicación]</pubDate>
+    </item>
+
+    <!-- Item 2: Referencia a una noticia en formato HTML -->
+    <item>
+      <title>Noticia Importante</title>
+      <link>http://www.ejemplo.com/noticia.html</link>
+      <description>Lee una noticia interesante en nuestro sitio web</description>
+      <pubDate>[Fecha y hora de la publicación]</pubDate>
+    </item>
+
+  </channel>
+</rss>
