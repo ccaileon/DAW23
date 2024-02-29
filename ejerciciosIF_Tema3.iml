@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Programación/bingoProyectoPrimerTrimestre" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/calculadora" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/cincoVariables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/conversorDeSegundos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/datosPersonales/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/ejerciciosIF_Tema3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/ejerciciosSwitch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/tresEnRaya" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/Ejercicios Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/Ejercicios ArrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/ArraysMultidimensionales" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/EjerciciosOrientacionAObjetos" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
