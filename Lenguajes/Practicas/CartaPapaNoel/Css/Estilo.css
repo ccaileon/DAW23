@@ -1,0 +1,43 @@
+body {
+  background-image: url('https://cdn5.vectorstock.com/i/1000x1000/41/79/red-seamless-christmas-pattern-vector-26674179.jpg');
+  align-content: center;
+  align-items: center;
+  font-family: Arial, serif;
+  justify-content: center;
+  display: flex;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "A little sunshine", serif;
+  justify-content: center;
+  display: flex;
+
+
+}
+p {
+  font-family: "A little sunshine", serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align-all: center;
+
+
+}
+
+fieldset {
+  background-color: white;
+  width: 500px;
+  height: 950px;
+  border: 20px solid transparent;
+
+border-image: url("https://img.freepik.com/premium-vector/candy-cane-stripe-background-seamless-christmas-pattern-vector-illustration_171739-1626.jpg") 30 round;
+
+}
+
+.foto {
+  width: 120px;
+  height: 150px;
+  float: right;
+
+}

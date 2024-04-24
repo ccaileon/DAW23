@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador de Visitas</title>
+    <style>
+        /* Estilos básicos para el contador y botones */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #visitCount {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador de Visitas</h1>
+    <!-- Botón para incrementar el contador -->
+    <button onclick="increaseCount()">Aumentar Contador</button>
+    <!-- Botón para reiniciar el contador a 0 -->
+    <button onclick="resetCount()">Reiniciar Contador</button>
+    <!-- Elemento para mostrar el valor del contador -->
+    <div id="visitCount">Visitas: 0</div>
+
+    <script>
+        // Variable para almacenar el valor del contador
+        let count = 0;
+
+        // Función para incrementar el contador
+        function increaseCount() {
+            count++; // Incrementa el contador en 1
+            updateDisplay(); // Actualiza el valor mostrado en la página
+        }
+
+        // Función para reiniciar el contador
+        function resetCount() {
+            count = 0; // Reinicia el contador a 0
+            updateDisplay(); // Actualiza el valor mostrado en la página
+        }
+
+        // Función para actualizar el valor del contador en la página
+        function updateDisplay() {
+            document.getElementById('visitCount').textContent = 'Visitas: ' + count;
+        }
+    </script>
+</body>
+</html>

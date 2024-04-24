@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Programación/Ejercicios ArrayList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Programación/ArraysMultidimensionales" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Programación/EjerciciosOrientacionAObjetos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="openjdk-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

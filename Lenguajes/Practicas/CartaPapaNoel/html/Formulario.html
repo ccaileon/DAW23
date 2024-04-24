@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta a Papá Noel</title> <!-- Nombre de la pestaña -->
+  <link rel="stylesheet" type="text/css" href="../Css/Estilo.css"/>
+  <script src="../js/Script.js"></script>
+
+</head>
+<body>
+
+<form id="carta" action="Confirmación.html" method="get">
+
+  <fieldset class="fieldset">
+    <h1>¡Escribe tu carta a Papá Noel!</h1> <img src="https://static.vecteezy.com/system/resources/thumbnails/011/704/353/small_2x/santa-claus-isolated-3d-render-png.png" class="foto">
+    <p>¿Te has portado bien este año?</p>
+    <p>  ¿Quieres escribirle una carta a Papá Noel con tus deseos? </p>
+    <p>Tenemos contacto directo con los elfos. Escribe tu carta y la haremos llegar.</p>
+
+      <br>
+
+    <label for="nombre">Nombre y Apellidos</label><br>
+    <input type="text" name="nombre" id="nombre" size="50" maxlength="50" required><br><br>
+    <label for="direccion">Dirección</label><br>
+    <input type="text" name="direccion" id="direccion" size="50" maxlength="50">
+    <br><br><br>
+
+    <label for="comportamiento">Marca los buenos comportamientos que hayas cumplido este año:</label><br><br>
+    <div id="comportamiento">
+    <label><input type="checkbox" value="1" >He hecho los deberes todos los días.</label><br>
+    <label><input type="checkbox" value="2" >He recogido mi habitación. </label><br>
+    <label><input type="checkbox" value="3">He aprobado todas las asignaturas.</label><br>
+    <label><input type="checkbox" value="4">He hecho caso a mis padres.</label> <br><br>
+    </div><br>
+
+    <label for="lugar">¿Dónde quieres encontrar tus regalos?</label><br>
+    <select id="lugar" required>
+      <option value="" selected="selected">- selecciona -</option>
+      <option value="1">En la chimenea</option>
+      <option value="2">Bajo el árbol</option>
+      <option value="3">En la entrada de casa</option>
+    </select><br><br><br><br><br><br>
+
+    <label for="cartaEscrita">¡Escribe tu carta aquí!</label><br>
+    <textarea id="cartaEscrita" rows="10" cols="70"></textarea><br><br><br>
+
+<input type="submit"value="Enviar Carta" class="boton">
+
+  </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </fieldset>
+
+
+</form>
+
+
+
+</body>
+</html>

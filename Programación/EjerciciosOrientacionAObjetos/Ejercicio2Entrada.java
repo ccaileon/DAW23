@@ -1,2 +1,2 @@
-public class Ejercicio2Entrada {
+public abstract class Ejercicio2Entrada {
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Sencilla</title>
+</head>
+<body>
+
+<h2>Calculadora Sencilla</h2>
+
+<label for="numero1">Número 1:</label>
+<input type="number" id="numero1">
+<br><br>
+
+<label for="numero2">Número 2:</label>
+<input type="number" id="numero2">
+<br><br>
+
+<label for="operacion">Operación:</label>
+<select id="operacion">
+    <option value="suma">Suma</option>
+    <option value="resta">Resta</option>
+    <option value="multiplicacion">Multiplicación</option>
+    <option value="division">División</option>
+</select>
+<br><br>
+
+<button onclick="realizarOperacion()">Calcular</button>
+
+<script>
+    function realizarOperacion() {
+        var num1 = document.getElementById('numero1').value;
+        var num2 = document.getElementById('numero2').value;
+        var operacion = document.getElementById('operacion').value;
+        var resultado;
+
+        switch (operacion) {
+            case "suma":
+                resultado = Number(num1) + Number(num2);
+                break;
+            case "resta":
+                resultado = Number(num1) - Number(num2);
+                break;
+            case "multiplicacion":
+                resultado = Number(num1) * Number(num2);
+                break;
+            case "division":
+                if (num2 !== 0) {
+                    resultado = Number(num1) / Number(num2);
+                } else {
+                    alert("No se puede dividir por cero");
+                    return;
+                }
+                break;
+            default:
+                alert("Operación no reconocida");
+                return;
+        }
+
+        alert("Resultado: " + resultado);
+    }
+</script>
+
+</body>
+</html>

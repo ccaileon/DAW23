@@ -5,34 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c6a680-62d3-4f99-bef6-ff81cd71c75f" name="Changes" comment="Organización de módulos&#10;Creado el módulo de Lenguaje de Marcas&#10;2 XML added">
-      <change afterPath="$PROJECT_DIR$/Entornos/JUnit Simulacro/Colegio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entornos/Simulacro/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entornos/Test/ColegioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entornos/src/model/Nadador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/Ejercicio7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/MayorArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/MultiplicarArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/PosicionesArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios Array/SumaArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio1AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio2AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio3AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio4AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio5AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/Ejercicios ArrayList/Ejercicio6AL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosOrientacionAObjetos/Ejercicio2Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosOrientacionAObjetos/EntradaPersona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosOrientacionAObjetos/model/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/bingoProyectoPrimerTrimestre/bingo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/bingoProyectoPrimerTrimestre/bingoMetodos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/conversorDeSegundos/tablero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programación/tresEnRaya/tresEnRaya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entornos/Simulacro/bin/Simulacro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/public_html/HTML_CSS_JS/folder1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/public_html/HTML_CSS_JS/folder2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/public_html/HTML_CSS_JS/folder3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/public_html/HTML_CSS_JS/folder4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/13_02_2024/public_html/HTML_CSS_JS/folder5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder10/counter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder10/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder8/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder8/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder9/shopping.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/EjerciciosJS/CURSO_Lenguaje_de_Marcas_JS/public_html/HTML_CSS_JS/folder9/shopping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/Practicas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/Practicas/CartaPapaNoel/Css/Estilo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/Practicas/CartaPapaNoel/html/Confirmación.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/Practicas/CartaPapaNoel/html/Formulario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lenguajes/Practicas/CartaPapaNoel/js/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/controller/Coleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/controller/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/model/Multimedia/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/model/Multimedia/ElementoMultimedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/model/Multimedia/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/model/Multimedia/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programación/EjerciciosHerenciaYPolimorfismo/ListaMultimedia/model/Persona/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entornos/Test/ColegioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entornos/Test/ColegioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lenguaje de Marcas/XML/archivoAtom.atom" beforeDir="false" afterPath="$PROJECT_DIR$/Lenguaje de Marcas/XML/archivoAtom.atom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/EjerciciosOrientacionAObjetos/Ejercicio2Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programación/EjerciciosOrientacionAObjetos/Ejercicio2Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/out/production/ejerciciosIF_Tema3/model/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/Programación/out/production/ejerciciosIF_Tema3/model/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejerciciosIF_Tema3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosIF_Tema3.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +62,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,19 +89,22 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eneat/IdeaProjects/DAW23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eneat/IdeaProjects/DAW23/Lenguajes/EjerciciosJS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,14 +120,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes\EjerciciosJS" />
       <recent name="C:\Users\eneat\IdeaProjects\DAW23\Programación" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Entornos\src" />
-      <recent name="C:\Users\eneat\IdeaProjects\DAW23" />
-      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Miscelánea" />
-      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguaje de Marcas" />
-      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Programación" />
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes\Practicas\CartaPapaNoel\html" />
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes\Practicas\CartaPapaNoel\js" />
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes\Practicas\CartaPapaNoel\Css" />
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes\EjerciciosJS" />
+      <recent name="C:\Users\eneat\IdeaProjects\DAW23\Lenguajes" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,7 +140,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Confirmación.html">
     <configuration name="All in Entornos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Entornos" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,6 +148,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Confirmación.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW23/Lenguajes/Practicas/CartaPapaNoel/html/Confirmación.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Formulario.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DAW23/Lenguajes/Practicas/CartaPapaNoel/html/Formulario.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="cincoVariables" />
@@ -137,6 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Confirmación.html" />
+        <item itemvalue="JavaScript Debug.Formulario.html" />
         <item itemvalue="JUnit.All in Entornos" />
       </list>
     </recent_temporary>
@@ -183,6 +218,23 @@
       <workItem from="1709062436979" duration="72000" />
       <workItem from="1709139385797" duration="3716000" />
       <workItem from="1709144234817" duration="1462000" />
+      <workItem from="1709245085072" duration="583000" />
+      <workItem from="1709304787720" duration="21000" />
+      <workItem from="1709747704726" duration="672000" />
+      <workItem from="1709832469052" duration="14000" />
+      <workItem from="1709832490176" duration="648000" />
+      <workItem from="1710011609222" duration="906000" />
+      <workItem from="1710014725752" duration="1374000" />
+      <workItem from="1710065411464" duration="973000" />
+      <workItem from="1710066409108" duration="43000" />
+      <workItem from="1710066459282" duration="9898000" />
+      <workItem from="1710187046105" duration="50000" />
+      <workItem from="1710781404446" duration="9614000" />
+      <workItem from="1711215987052" duration="3683000" />
+      <workItem from="1711299409337" duration="6827000" />
+      <workItem from="1711986568973" duration="3961000" />
+      <workItem from="1712080464004" duration="597000" />
+      <workItem from="1712083257396" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Programación">
       <option name="closed" value="true" />
@@ -260,5 +312,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DAW23$Formulario_html.dat" NAME="Formulario.html Coverage Results" MODIFIED="1710069725942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

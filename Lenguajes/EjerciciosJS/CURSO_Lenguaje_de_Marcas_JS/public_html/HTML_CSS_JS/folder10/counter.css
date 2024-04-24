@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+h1 {
+    color: #555; /* Define el color del texto del título a un tono oscuro de gris. */
+}
+
+#visitButton {
+    padding: 10px 15px; /* Ajusta el relleno del botón para hacerlo más grande y cómodo al clic. */
+    font-size: 16px; /* Aumenta el tamaño del texto dentro del botón para mejorar la legibilidad. */
+    background-color: #007bff; /* Establece el color de fondo del botón a un azul brillante. */
+    color: white; /* Cambia el color del texto del botón a blanco para contrastar con el fondo azul. */
+    border: none; /* Elimina el borde del botón para un aspecto más moderno. */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se mueve sobre el botón, indicando que es clickeable. */
+    border-radius: 5px; /* Redondea las esquinas del botón para suavizar su apariencia. */
+}
+
+#visitButton:hover {
+    background-color: #0056b3; /* Oscurece el color de fondo del botón cuando el usuario pasa el mouse sobre él, proporcionando una retroalimentación visual. */
+}
+
+#visitCount {
+    margin-top: 20px; /* Añade un margen superior para separar el contador del botón, mejorando la distribución visual. */
+    font-size: 20px; /* Incrementa el tamaño del texto del contador para destacarlo. */
+    color: #333; /* Establece el color del texto del contador a un gris oscuro para una lectura fácil. */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Suma</title>
+</head>
+<body>
+
+<button onclick="solicitarNumerosYSumar()">Sumar Números</button>
+
+<script>
+    function solicitarNumerosYSumar() {
+        // Solicita al usuario el primer número
+        var numero1 = prompt("Introduce el primer número:");
+        // Solicita al usuario el segundo número
+        var numero2 = prompt("Introduce el segundo número:");
+
+        // Convierte los números de tipo string a tipo number y realiza la suma
+        var suma = Number(numero1) + Number(numero2);
+
+        // Muestra el resultado de la suma
+        alert("El resultado de la suma es: " + suma);
+    }
+</script>
+
+</body>
+</html>

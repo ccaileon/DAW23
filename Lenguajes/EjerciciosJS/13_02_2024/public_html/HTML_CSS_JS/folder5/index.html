@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Saludo Personalizado</title>
+</head>
+<body>
+
+<h1>Saludo Personalizado</h1>
+<label for="nombreUsuario">Por favor, introduce tu nombre:</label>
+<input type="text" id="nombreUsuario">
+<button onclick="mostrarSaludo()">Saludar</button>
+<div id="mensajeSaludo"></div>
+
+<script>
+    function mostrarSaludo() { // Define la función 'mostrarSaludo'
+        var nombre = document.getElementById('nombreUsuario').value; // Obtiene el valor ingresado en el campo de texto y lo almacena en la variable 'nombre'
+        var mensaje = "Hola, " + nombre + "! Bienvenido/a."; // Construye un mensaje personalizado usando el nombre obtenido y lo almacena en la variable 'mensaje'
+        document.getElementById('mensajeSaludo').textContent = mensaje; // Encuentra el contenedor <div> por su ID y cambia su contenido de texto al mensaje personalizado
+    }
+</script>
+
+</body>
+</html>

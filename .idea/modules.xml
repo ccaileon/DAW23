@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Entornos/Entornos.iml" filepath="$PROJECT_DIR$/Entornos/Entornos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lenguajes.iml" filepath="$PROJECT_DIR$/Lenguajes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lenguajes/Practicas.iml" filepath="$PROJECT_DIR$/Lenguajes/Practicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Entornos/Simulacro/Simulacro.iml" filepath="$PROJECT_DIR$/Entornos/Simulacro/Simulacro.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejerciciosIF_Tema3.iml" filepath="$PROJECT_DIR$/ejerciciosIF_Tema3.iml" />
     </modules>

@@ -10,7 +10,7 @@
   </author>
   <id>http://www.ejemplo.com/canal</id>
 
-  <!-- Entrada 1: El tiempo meteorológico diario de tu ciudad desde www.aemet.es -->
+  <!-- controller.Entrada 1: El tiempo meteorológico diario de tu ciudad desde www.aemet.es -->
   <entry>
     <title>El Tiempo en [Tu Ciudad]</title>
     <link href="http://www.aemet.es/[Enlace a tu ciudad]" />
@@ -20,7 +20,7 @@
     <content type="html">Consulta el tiempo meteorológico diario en [Tu Ciudad] a través de www.aemet.es</content>
   </entry>
 
-  <!-- Entrada 2: Referencia a una noticia en formato HTML -->
+  <!-- controller.Entrada 2: Referencia a una noticia en formato HTML -->
   <entry>
     <title>Noticia Importante</title>
     <link href="http://www.ejemplo.com/noticia.html" />

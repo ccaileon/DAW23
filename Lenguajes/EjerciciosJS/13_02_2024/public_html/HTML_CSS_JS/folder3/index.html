@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora del Área de un Círculo Simplificada</title>
+</head>
+<body>
+
+<button onclick="calcularAreaCirculo()">Calcular Área del Círculo</button>
+
+<script>
+    function calcularAreaCirculo() {
+        // Solicita al usuario el radio del círculo
+        var radio = prompt("Introduce el radio del círculo:");
+
+        // Calcula el área del círculo utilizando la fórmula básica (π * radio^2)
+        // Asumimos que el usuario introduce un número válido para simplificar
+        var area = Math.PI * radio * radio;
+
+        // Muestra el resultado del cálculo
+        alert("El área del círculo es: " + area);
+    }
+</script>
+
+</body>
+</html>

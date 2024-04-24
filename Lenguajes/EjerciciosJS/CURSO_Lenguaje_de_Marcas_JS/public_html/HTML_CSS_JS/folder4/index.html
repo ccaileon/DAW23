@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- Indica que este documento es un documento HTML5 -->
+<html lang="es"> <!-- Define el idioma del documento como español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres para el documento en UTF-8 -->
+    <title>Calculadora Sencilla</title> <!-- Título de la página, que aparece en la pestaña del navegador -->
+</head>
+<body>
+
+<h2>Calculadora Sencilla</h2> <!-- Título principal de la página visible para el usuario -->
+
+<label for="numero1">Número 1:</label> <!-- Etiqueta para el primer número de la operación -->
+<input type="number" id="numero1"> <!-- Campo de entrada para el primer número -->
+<br><br> <!-- Salto de línea doble para separación visual -->
+
+<label for="numero2">Número 2:</label> <!-- Etiqueta para el segundo número de la operación -->
+<input type="number" id="numero2"> <!-- Campo de entrada para el segundo número -->
+<br><br> <!-- Salto de línea doble para separación visual -->
+
+<label for="operacion">Operación:</label> <!-- Etiqueta para seleccionar el tipo de operación matemática -->
+<select id="operacion"> <!-- Menú desplegable para seleccionar la operación -->
+    <option value="suma">Suma</option> <!-- Opción de suma -->
+    <option value="resta">Resta</option> <!-- Opción de resta -->
+    <option value="multiplicacion">Multiplicación</option> <!-- Opción de multiplicación -->
+    <option value="division">División</option> <!-- Opción de división -->
+</select>
+<br><br> <!-- Salto de línea doble para separación visual -->
+
+<button onclick="realizarOperacion()">Calcular</button> <!-- Botón para ejecutar el cálculo -->
+
+<script>
+    function realizarOperacion() { <!-- Inicia la definición de la función para realizar la operación matemática -->
+        var num1 = document.getElementById('numero1').value; <!-- Obtiene el valor del primer número -->
+        var num2 = document.getElementById('numero2').value; <!-- Obtiene el valor del segundo número -->
+        var operacion = document.getElementById('operacion').value; <!-- Obtiene el tipo de operación seleccionada -->
+        var resultado; <!-- Variable para almacenar el resultado -->
+
+        switch (operacion) { <!-- Inicia una estructura de control switch para manejar la operación seleccionada -->
+            case "suma": <!--Caso suma -->
+                resultado = Number(num1) + Number(num2); <!-- Realiza la suma -->
+                break; <!-- Termina este caso -->
+            case "resta": <!-- Caso resta -->
+                resultado = Number(num1) - Number(num2); <!-- Realiza la resta -->
+                break; <!-- Termina este caso -->
+            case "multiplicacion": <!-- Caso multiplicación -->
+                resultado = Number(num1) * Number(num2); <!-- Realiza la multiplicación -->
+                break; <!-- Termina este caso -->
+            case "division": <!-- Caso división -->
+                if (num2 !== 0) { <!-- Verifica que el divisor no sea cero -->
+                    resultado = Number(num1) / Number(num2); <!-- Realiza la división -->
+                } else {
+                    alert("No se puede dividir por cero"); <!-- Muestra un mensaje de error si el divisor es cero -->
+                    return; <!-- Sale de la función para evitar más ejecución -->
+                }
+                break; <!-- Termina este caso -->
+            default: <!-- Caso por defecto si no se reconoce la operación -->
+                alert("Operación no reconocida"); <!-- Muestra un mensaje de error -->
+                return; <!-- Sale de la función para evitar más ejecución -->
+        }
+
+        alert("Resultado: " + resultado); <!-- Muestra el resultado de la operación en una alerta -->
+    }
+</script>
+
+</body>
+</html>

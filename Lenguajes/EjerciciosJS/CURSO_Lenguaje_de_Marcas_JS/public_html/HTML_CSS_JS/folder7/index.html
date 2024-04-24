@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Inicia el documento HTML y especifica el idioma del contenido como español -->
+<head> <!-- Contiene metadatos/información para el navegador -->
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres para el documento -->
+    <title>Cambio de Color de Fondo</title> <!-- Título de la página, que aparece en la pestaña del navegador -->
+    <style>
+        /* Define estilos CSS internos para el documento */
+        body {
+            padding: 20px; /* Agrega un relleno alrededor del contenido del cuerpo */
+            font-family: Arial, sans-serif; /* Establece la familia de fuentes para el texto */
+        }
+
+        #changeColorButton {
+            padding: 10px 20px; /* Agrega relleno alrededor del botón */
+            font-size: 16px; /* Establece el tamaño de la fuente del botón */
+            cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa sobre el botón */
+        }
+    </style>
+</head>
+<body> <!-- Contiene el contenido visible de la página web -->
+
+<h1>Cambiar el Color de Fondo</h1> <!-- Encabezado de la página -->
+<button id="changeColorButton" onclick="changeBackgroundColor()">Cambiar Color</button> <!-- Botón para cambiar el color de fondo con un controlador de evento onclick que llama a la función changeBackgroundColor() -->
+
+<script>
+    // Define un script de JavaScript para la interactividad de la página
+    function changeBackgroundColor() {
+        // Función para cambiar el color de fondo de la página
+        // Genera un color aleatorio en formato RGB
+        var red = Math.floor(Math.random() * 256); // Genera un número aleatorio para el rojo
+        var green = Math.floor(Math.random() * 256); // Genera un número aleatorio para el verde
+        var blue = Math.floor(Math.random() * 256); // Genera un número aleatorio para el azul
+        var bgColor = "rgb(" + red + "," + green + "," + blue + ")"; // Crea una cadena de texto para el color en formato RGB
+        
+        // Cambia el color de fondo del cuerpo de la página
+        document.body.style.backgroundColor = bgColor; // Aplica el color generado al fondo del cuerpo de la página
+    }
+</script>
+
+</body>
+</html>
