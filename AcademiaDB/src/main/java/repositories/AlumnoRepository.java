@@ -17,7 +17,7 @@ public class AlumnoRepository {
         connection = DBConnection.getConnection();
 
         // trabajar con la conexión
-        // INSERT into alomnos (nombre, apellido, correo, telefono) VALUES ('carla','garcia','correo','1234')
+        // INSERT into alumnos (nombre, apellido, correo, telefono) VALUES ('carla','garcia','correo','1234')
         Statement statement = null;
         PreparedStatement preparedStatement = null;
 
