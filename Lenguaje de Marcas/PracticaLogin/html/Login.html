@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 300px;
+      width: 100%;
+      text-align: center;
+
+    }
+
+    .formulario {
+      border: 1px solid #222222;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="email"], input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+
+    }
+
+    input[type="submit"] {
+      background-color: dodgerblue;
+      cursor: pointer;
+      color: white;
+      border: none;
+    }
+
+    input[type="submit"]:hover {
+      background-color: royalblue;
+    }
+
+    #mensaje-bienvenida {
+      display: none;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Formulario de Registro</h2>
+  </div>
+  <div class="formulario">
+    <form id="registro">
+      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="email" id="email" placeholder="Correo Electrónico" required>
+      <input type="submit" value="Enviar" onclick="mandarFormulario()">
+
+    </form>
+    <div id="mensaje-bienvenida"></div>
+
+  </div>
+</div>
+
+
+<script>
+
+
+  function mandarFormulario() {
+    const nameInput = document.getElementById('name').value;
+    const emailInput = document.getElementById('email').value;
+    const mensaje = document.getElementById('mensaje-bienvenida');
+    mensaje.textContent = '';
+
+    if (validarEmail(emailInput)) {
+      mensaje.textContent = `¡Bienvenido, ${nameInput}! Gracias por registrarte.`;
+      mensaje.style.display = 'block';
+      event.preventDefault();
+    } else {
+      mensaje.textContent = 'Introduzca un correo válido';
+    }
+  }
+
+  function validarEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
+</script>
+</body>
+</html>
