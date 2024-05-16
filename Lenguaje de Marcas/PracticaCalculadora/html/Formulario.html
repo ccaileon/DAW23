@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+  <style>
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+
+}
+.formulario {
+border: 1px solid #9e9c9c;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+input[type="submit"]:hover {
+background-color: royalblue;
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Formulario de Registro
+    </h2>
+  </div>
+<div class="formulario">
+  <form id="registro">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+   <input type="email" id="email" placeholder="Correo Electrónico" required>
+    <input type="submit" id="boton" value="Enviar" onclick="enviarFormulario()">
+  </form>
+  <div class="mensaje" id="mensaje"></div>
+
+</div>
+
+</div>
+
+
+
+<script>
+
+function enviarFormulario() {
+  var nombre = document.getElementById('nombre').value;
+  var email = document.getElementById('email').value;
+  var mensaje = document.getElementById('mensaje');
+  console.log(email);
+  if (comprobarEmail(email) && nombre !== '') {
+    mensaje.textContent = `Bienvenido, ${nombre}. Te has registrado correctamente.`;
+    mensaje.style.display='block';
+    event.preventDefault()
+  } else {
+    alert('Rellene los campos correctamente.');
+  }
+}
+
+function comprobarEmail(email) {
+  var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
+
+</script>
+</body>
+</html>
