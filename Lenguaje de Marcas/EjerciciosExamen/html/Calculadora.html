@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Online</title>
+  <style>
+    body {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+
+      .calculadora {
+        background-color: #b3d4fc;
+        border: 1px solid #888888;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      .resultado {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+
+      }
+      .row {
+        display: flex;
+      }
+      .boton {
+        border: 1px solid #999999;
+        text-align: center;
+        background-color: antiquewhite;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        padding: 5px;
+        margin: 5px;
+        flex: 1;
+      }
+
+      .boton:hover {
+        background-color: aliceblue;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="calculadora">
+  <input type="text" id="resultado" class="resultado" readonly>
+  <div class="row">
+    <div class="boton" onclick="addResolver('1')">1</div>
+    <div class="boton" onclick="addResolver('2')">2</div>
+    <div class="boton" onclick="addResolver('3')">3</div>
+    <div class="boton" onclick="addResolver('+')">+</div>
+  </div>
+  <div class="row">
+    <div class="boton" onclick="addResolver('4')">4</div>
+    <div class="boton" onclick="addResolver('5')">5</div>
+    <div class="boton" onclick="addResolver('6')">6</div>
+    <div class="boton" onclick="addResolver('-')">-</div>
+  </div>
+  <div class="row">
+    <div class="boton" onclick="addResolver('7')">7</div>
+    <div class="boton" onclick="addResolver('8')">8</div>
+    <div class="boton" onclick="addResolver('9')">9</div>
+    <div class="boton" onclick="addResolver('*')">*</div>
+  </div>
+  <div class="row">
+    <div class="boton" onclick="addResolver('0')">0</div>
+    <div class="boton" onclick="addResolver('/')">/</div>
+    <div class="boton" onclick="resolver()">=</div>
+    <div class="boton" onclick="borrar()">C</div>
+  </div>
+</div>
+
+
+
+
+<script>
+  function addResolver(value){
+    document.getElementById('resultado').value +=value;
+  }
+
+  function resolver(){
+    const result = eval(document.getElementById('resultado').value)
+    document.getElementById('resultado').value = result;
+  }
+
+  function borrar() {
+    document.getElementById('resultado').value = '';
+  }
+</script>
+</body>
+</html>
