@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+
+  <style>
+    body {
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+    }
+
+  .container {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .formulario {
+    border: 1px solid #888888;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  input[type='text'], input[type='email'], input[type='submit'] {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+    input[type='submit'] {
+      background-color: dodgerblue;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    input[type='submit']:hover {
+      background-color: royalblue;
+    }
+
+    .mensaje {
+      font-size: 18px;
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Formulario de Registro</h2>
+  </div>
+
+  <form id="formulario" class="formulario">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="email" id="email" placeholder="Coreeo Electrónico" required>
+    <input type="submit" value="Enviar" onclick="validarFormulario()">
+
+  </form>
+  <div class="mensaje" id="mensaje"></div>
+</div>
+
+
+<script>
+  function validarFormulario() {
+    const nombreInput = document.getElementById('nombre').value;
+    const emailInput = document.getElementById('email').value;
+    const mensajeText = document.getElementById('mensaje');
+    console.log(nombreInput);
+    console.log(emailInput);
+    if (nombreInput !== '' && emailInput !== '') {
+      console.log(nombreInput);
+      console.log(emailInput);
+      mensajeText.textContent = `Bienvenido, ${nombreInput}. Registro satisfactorio`
+      mensajeText.style.display = 'block';
+      console.log(mensajeText);
+      event.preventDefault();
+    } else {
+      alert("Rellene todos los campos.")
+    }
+  }
+
+</script>
+</body>
+</html>
