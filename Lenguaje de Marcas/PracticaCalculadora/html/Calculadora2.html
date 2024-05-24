@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caluladora</title>
+
+  <style>
+body {
+justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+}
+
+.calculadora {
+  border: 1px solid #555555;
+  border-radius: 5px;
+padding: 20px;
+}
+
+.row {
+display: flex;
+}
+
+.resultado {
+  box-sizing: border-box;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.boton {
+  border: 1px solid #222222;
+  flex: 1;
+  cursor: pointer;
+  background-color: #b3d4fc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: dodgerblue;
+}
+  </style>
+</head>
+<body>
+
+<div class="calculadora">
+  <input type="text" id="resultado" class="resultado" readonly>
+
+  <div class="row">
+    <div class="boton" onclick="addResolver('1')">1</div>
+    <div class="boton" onclick="addResolver('2')">2</div>
+    <div class="boton" onclick="addResolver('3')">3</div>
+    <div class="boton" onclick="addResolver('+')">+</div>
+  </div>
+
+  <div class="row">
+    <div class="boton" onclick="addResolver('4')">4</div>
+    <div class="boton" onclick="addResolver('5')">5</div>
+    <div class="boton" onclick="addResolver('6')">6</div>
+    <div class="boton" onclick="addResolver('-')">-</div>
+  </div>
+
+  <div class="row">
+    <div class="boton" onclick="addResolver('7')">7</div>
+    <div class="boton" onclick="addResolver('8')">8</div>
+    <div class="boton" onclick="addResolver('9')">9</div>
+    <div class="boton" onclick="addResolver('*')">*</div>
+  </div>
+
+  <div class="row">
+    <div class="boton" onclick="addResolver('0')">0</div>
+    <div class="boton" onclick="addResolver('/')">/</div>
+    <div class="boton" onclick="borrar()">C</div>
+    <div class="boton" onclick="resolver()">=</div>
+  </div>
+
+
+</div>
+
+
+
+<script>
+  function addResolver(value) {
+document.getElementById('resultado').value += value;
+  }
+
+  function borrar() {
+document.getElementById('resultado').value = '';
+  }
+
+  function resolver() {
+const result = eval(document.getElementById('resultado').value);
+document.getElementById('resultado').value = result;
+  }
+</script>
+</body>
+</html>

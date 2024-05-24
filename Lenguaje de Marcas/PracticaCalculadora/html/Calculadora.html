@@ -5,102 +5,101 @@
   <title>Calculadora</title>
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      justify-content: center;
-      align-items: center;
-      margin: 10px;
-      height: 100vh;
-      display: flex;
-    }
+body {
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
 
-    .calculadora {
-      border: 1px solid #222222;
-      border-radius: 5px;
-      padding: 10px;
-    }
+.row {
+  display: flex;
+}
+.boton {
+  background-color: #b3d4fc;
+  border: 1px solid #888888;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+}
+.boton:hover {
+  background-color: dodgerblue;
+}
 
-    .row {
-      display: flex;
-    }
+.calculadora {
+  border: 1px solid #222222;
+  border-radius: 5px;
+  padding: 20px;
+}
 
-    .button {
-      flex: 1;
-      padding: 10px;
-      margin: 10px;
-      text-align: center;
-      cursor: pointer;
-      border: 1px solid #999999;
-      background-color: #B9E4E654;
-      transition: background-color 0.3s ease;
-
-    }
-
-    .button:hover {
-      background-color: #b3d4fc;
-    }
-
-    .result {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      box-sizing: border-box;
-    }
-
-
+.resultado {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 200px;
+}
   </style>
 </head>
 <body>
 <div class="calculadora">
-  <input type="text" class="result" id="result" readonly>
+  <input type="text" id="resultado" class="resultado" readonly>
 
   <div class="row">
-    <div class="button" onclick="appendToResult('1')">1</div>
-    <div class="button" onclick="appendToResult('2')">2</div>
-    <div class="button" onclick="appendToResult('3')">3</div>
-    <div class="button" onclick="appendToResult('+')">+</div>
-
+    <div class="boton" onclick="addResultado('1')">1</div>
+    <div class="boton" onclick="addResultado('2')">2</div>
+    <div class="boton" onclick="addResultado('3')">3</div>
+    <div class="boton" onclick="addResultado('+')">+</div>
   </div>
+
   <div class="row">
-    <div class="button" onclick="appendToResult('4')">4</div>
-    <div class="button" onclick="appendToResult('5')">5</div>
-    <div class="button" onclick="appendToResult('6')">6</div>
-    <div class="button" onclick="appendToResult('-')">-</div>
-
+    <div class="boton" onclick="addResultado('4')">4</div>
+    <div class="boton" onclick="addResultado('5')">5</div>
+    <div class="boton" onclick="addResultado('6')">6</div>
+    <div class="boton" onclick="addResultado('-')">-</div>
   </div>
+
   <div class="row">
-    <div class="button" onclick="appendToResult('7')">7</div>
-    <div class="button" onclick="appendToResult('8')">8</div>
-    <div class="button" onclick="appendToResult('9')">9</div>
-    <div class="button" onclick="appendToResult('*')">*</div>
-
+    <div class="boton" onclick="addResultado('7')">7</div>
+    <div class="boton" onclick="addResultado('8')">8</div>
+    <div class="boton" onclick="addResultado('9')">9</div>
+    <div class="boton" onclick="addResultado('*')">*</div>
   </div>
+
   <div class="row">
-    <div class="button" onclick="appendToResult('0')">0</div>
-    <div class="button" onclick="clearResult()">C</div>
-    <div class="button" onclick="calculateResult()">=</div>
-    <div class="button" onclick="appendToResult('/')">/</div>
-
+    <div class="boton" onclick="addResultado('0')">0</div>
+    <div class="boton" onclick="addResultado('/')">/</div>
+    <div class="boton" onclick="borrar()">C</div>
+    <div class="boton" onclick="resolver()">=</div>
   </div>
-
 
 </div>
 
+
+
+
+
 <script>
-  function appendToResult(value) {
-    document.getElementById('result').value += value;
-  }
+function addResultado(value){
+document.getElementById('resultado').value += value;
+}
 
-  function clearResult() {
-    document.getElementById('result').value = '';
-  }
+function borrar(){
+  document.getElementById('resultado').value = '';
+}
 
-  function calculateResult() {
-    const result = eval(document.getElementById('result').value);
-    document.getElementById('result').value = result;
-  }
+function resolver(){
+const calcularResultado = eval(document.getElementById('resultado').value);
+  document.getElementById('resultado').value = calcularResultado;
+}
+
 
 </script>
+
 
 </body>
 </html>

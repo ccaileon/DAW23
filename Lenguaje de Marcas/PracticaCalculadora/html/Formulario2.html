@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+  <style>
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.formulario {
+  border: 1px solid #868686;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+input[type='text'], input[type='email'], input[type='submit']{
+  padding: 10px;
+margin-bottom: 10px;
+width: 100%;
+  box-sizing: border-box;
+}
+input[type='submit']{
+  cursor: pointer;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+}
+input[type='submit']:hover {
+  background-color: royalblue;
+}
+
+.mensaje {
+  display: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Formulario de Registro</h2>
+  <form id="formulario" class="formulario">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="email" id="email" placeholder="Correo Electrónico" required>
+    <input type="submit" id="enviar" value="Enviar" onclick="validarFormulario()">
+
+  </form>
+  <div class="mensaje"></div>
+</div>
+
+<script>
+  function validarFormulario() {
+    const nombreInput = document.getElementById('nombre').value;
+    const emailInput = document.getElementById('email').value;
+    const mensaje = document.getElementById('mensaje');
+
+    if (nombre != 'null' && email != '') {
+      mensaje.textContent = `Bienvenido, ${nombreInput}! Te has registrado correctamente.`
+      mensaje.style.display = 'block';
+      event.preventDefault();
+    } else {
+      alert("Rellene todos los campos.")
+    }
+  }
+</script>
+</body>
+</html>
