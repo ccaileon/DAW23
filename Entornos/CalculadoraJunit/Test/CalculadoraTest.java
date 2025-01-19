@@ -30,6 +30,7 @@ private int numero1, numero2, resultadoSuma, resultadoResta, resultadoMultiplica
             assertEquals("Fallo en el método de suma.", resultadoEsperadoSuma, resultadoSuma);
 
         }
+        
 
         @org.junit.Test
     public void testResta() {
@@ -43,5 +44,6 @@ private int numero1, numero2, resultadoSuma, resultadoResta, resultadoMultiplica
         Calculadora calculadoraTest = new Calculadora(numero1, numero2);
         int resultadoEsperadoMultiplicacion = calculadoraTest.multiplicar(numero1, numero2);
         assertEquals("Fallo en el método de multiplicar", resultadoEsperadoMultiplicacion, resultadoMultiplicacion);
+
     }
 }
