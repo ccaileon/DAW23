@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="junit.jupiter.api" type="repository">
+    <properties maven-id="org.junit.jupiter:junit-jupiter-api:5.5.2">
+      <exclude>
+        <dependency maven-id="org.apiguardian:apiguardian-api" />
+        <dependency maven-id="org.junit.jupiter:junit-jupiter-api" />
+        <dependency maven-id="org.junit.platform:junit-platform-commons" />
+        <dependency maven-id="org.opentest4j:opentest4j" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,2 @@
+Usuario{nombre='Noelia', apellido='Cegarra', dni='827382', edad=45, telefono=89736}
+Usuario{nombre='noje', apellido='ytgd', dni='ygyds', edad=45, telefono=56542}

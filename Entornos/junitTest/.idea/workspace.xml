@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09b1f472-f3ef-42a6-9658-b03eb1bbb0cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/JunitPractica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/src/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JunitPractica/test/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaJunit/PracticaJunit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaJunit/src/Ejercicio1/Colegio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaJunit/test/Ejercicio1/ColegioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaJunit2/PruebaJunit2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaJunit2/Test/Colegio/ColegioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaJunit2/src/Colegio/Colegio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimulacroJunit/src/Estacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimulacroJunit/test/EstacionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AcademiaDB/src/main/java/repositories/AlumnoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AcademiaDB/src/main/java/repositories/AlumnoRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2fmxoHfQAhaPedh8V6ZlIrZO0uY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09b1f472-f3ef-42a6-9658-b03eb1bbb0cb" name="Changes" comment="" />
+      <created>1714420229497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714420229497</updated>
+      <workItem from="1714420230493" duration="666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
